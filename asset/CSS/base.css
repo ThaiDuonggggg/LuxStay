@@ -1,0 +1,45 @@
+:root {
+    --white-color: #fff;
+    --black-color: #222;
+    --gray-color: #F5F5F5;
+    --dark-color: #555555;
+    --tomato-color: tomato;
+    --box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+}
+
+.nav__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.nav__overlay.show-overlay {
+    display: block;
+}
+
+.header__nav-mobile-list {
+    list-style: none;
+}
+
+.nav__mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--white-color);
+    width: 320px;
+    max-width: 100%;
+    border: 1px solid var(--gray-color);
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform linear 0.4s, opacity linear 0.3s;
+}
+
+.nav__mobile.show-nav__mobile {
+    transform: translateX(0);
+    opacity: 1;
+}

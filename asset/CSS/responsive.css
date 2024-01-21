@@ -1,0 +1,110 @@
+/*Mobile & tablet*/
+@media (max-width: 1023px) {
+    .header__nav {
+        display: none;
+    }
+    .header__search-date, .header__search-user {
+        padding: 0 20px;
+    }
+    .row-no-flex-wrap {
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    .download__app-by-image {
+        display: none;
+    }
+    .download__app-logo {
+        width: 100%;
+    }
+    .footer__content-heading {
+        margin-top: 10px;
+    }
+    .orange::before {
+        position: absolute;
+        right: calc(100% - 70px);
+        width: 5px;
+        height: 5px;
+        top: unset;
+    }
+
+    .nav__mobile-item {
+        font-weight: 400;
+    }
+
+    .nav__mobile-list .nav__mobile-item:nth-child(2) {
+        font-weight: 700;
+    }
+    .nav__mobile-language-icon {
+        font-size: 1.6rem;
+        position: absolute;
+        right: 15px;
+    }
+    .nav__mobile-btn {
+        display: block;
+        margin-left: 20px;
+        flex: 1;
+    }
+}
+
+/*tablet*/
+
+@media (min-width: 740px) and (max-width: 1023px){
+    .location__des-text {
+        font-size: 2.3rem;
+    }
+    .row-flex-wrap {
+        flex-wrap: wrap;
+    }
+    .header__search {
+        flex: none;
+    }
+}
+
+/*Mobile*/ 
+@media (max-width: 739px) {
+    .header__search {
+        display: none;
+    }
+    .nav__mobile-btn {
+        display: block;
+        flex: 1;
+        margin-left: 20px;
+    }
+    .header__logo-img {
+        display: none;
+    }
+    #container,
+    .download__app,
+    .footer,
+    #slider {
+        width: 100%;
+        height: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    #header{
+        padding: 0 15px;
+    }
+    .location__btn {
+        width: 40px;
+        height: 40px;
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    .luxstay__container-mt {
+        margin-top: 0px;
+    }
+    .download__app-logo-svg {
+        display: block;
+        width: 230px;
+    }
+}
+
+/*PC*/
+
+@media (min-width: 1024px) {
+    .header__logo-img {
+        display: block;
+    }
+    
+}
