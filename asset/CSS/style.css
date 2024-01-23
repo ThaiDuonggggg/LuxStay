@@ -396,10 +396,6 @@ svg {
     color: #222222;
 }
 
-.content__welcome {
-    
-}
-
 .content-description {
     line-height: 1.8;
     margin-top: 6px;
@@ -556,10 +552,6 @@ svg {
     width: 100%;
 }
 
-.content__promotion {
-   
-}
-
 .content__promotion-img {
     width: 100%;
     border-radius: 10px;
@@ -580,9 +572,6 @@ svg {
 .content__promotion-item-img:hover {
     transform: scale(1.03);
     transition: 0.3s ease-in;
-}
-
-.content__promotion-item {
 }
 
 .content__promotion-heading {
@@ -791,11 +780,6 @@ svg {
     font-weight: 400;
 }
 
-
-.top-homestay {
-
-}
-
 .footer__content-heading {
     text-transform: uppercase;
     font-size: 1.4rem;
@@ -855,11 +839,6 @@ svg {
 .payment-methods {
     display: flex;
 }
-
-.payment-item {
-
-}
-
 .business-item {
     margin-top: 15px;
 }
