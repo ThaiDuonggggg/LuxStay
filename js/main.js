@@ -51,3 +51,66 @@ function onChangeLanguages() {
 }
 
 mobileLanguages.addEventListener('click', onChangeLanguages);
+
+
+/* Slider*/
+
+// const listImage = document.querySelector('.list-image');
+// const images = document.querySelectorAll('.slider__img');
+// const length = images.length;
+// let current = 0;
+
+
+// setInterval(() => {
+//     if (current == length - 1) {
+//         current = 0;
+//         // let imgWidth = images[0].offsetWidth;
+//         listImage.style.transform = `translateX(0px)`;
+//     } else {
+//         current ++
+//         let imgWidth = images[0].offsetWidth
+//         listImage.style.transform = `translateX(${imgWidth * - 1 * current}px )`;
+//     }
+// }, 5000)
+
+/* Nút bấm slider*/
+
+
+
+/* Slide 2 */
+
+// const locationSlider = document.querySelector(".row-no-flex-wrap");
+// fistImg = locationSlider.querySelectorAll('.location__img')[0];
+// arrowIcons = document.querySelectorAll(".location__btn");
+
+// let isDragStart = false, prevPageX, preveScrollLeft;
+// let fistImgWidth = fistImg.clientWidth + 14;
+
+
+// arrowIcons.forEach(icon => {
+//     icon.addEventListener('click', () => {
+//         locationSlider.scrollLeft += icon.id == "left" ? -fistImgWidth : fistImgWidth;
+//     })
+// })
+
+// const dragStart = (e) => {
+//     isDragStart = true;
+//     prevPageX = e.pageX;
+//     preveScrollLeft = locationSlider.scrollLeft;
+// }
+
+// const dragging = (e) => {
+
+//     if(!isDragStart) return;
+//     e.preventDefault();
+//     let positionDiff = e.pageX - prevPageX;
+//     locationSlider.scrollLeft = preveScrollLeft - positionDiff;
+// }
+
+// const dragStop = () => {
+//     isDragStart = false;
+// }
+
+// locationSlider.addEventListener('mousedown', dragStart);
+// locationSlider.addEventListener('mousemove', dragging);
+// locationSlider.addEventListener('mouseup', dragStop);
